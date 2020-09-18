@@ -51,7 +51,7 @@ viz_test.show()
 
 # Comparing Actual vs Predicted
 df = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})
-df
+print(df)
 
 #Evaluating the model
 from sklearn import metrics
