@@ -64,8 +64,3 @@ hours = [[9.25]]
 own_pred = regressor.predict(hours)
 print("No of Hours = {}".format(hours))
 print("Predicted Score = {}".format(own_pred[0]))
-
-#Evaluating the model
-from sklearn import metrics
-print('Mean Absolute Error:',
-      metrics.mean_absolute_error(y_test, y_pred))
